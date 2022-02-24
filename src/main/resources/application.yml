@@ -1,13 +1,3 @@
-spring:
-  application:
-    name: demo-api
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"  
-  endpoint:
-    health:
-      show-details: always
+
 server:
   port: 80
