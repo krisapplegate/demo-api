@@ -7,9 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RestServiceInitialApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestServiceInitialApplication.class, args);
 		app.setDefaultProperties(Collections
           .singletonMap("server.port", "80"));
+		SpringApplication.run(RestServiceInitialApplication.class, args);
 	}
 
 }
